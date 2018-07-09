@@ -5,7 +5,7 @@ This repo is a fork from https://github.com/rdsubhas/docker-tor-privoxy-alpine, 
 The smallest (**7 MB**) docker image with Privoxy on Alpine Linux.
 
 ```
-docker run -d -p 8118:8118 pierre42100/privoxy-alpine
+docker run -d -p 8118:8118 pierre42100/docker-privoxy-alpine
 curl --proxy localhost:8118 https://www.google.com
 ```
 
